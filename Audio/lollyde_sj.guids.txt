@@ -1,0 +1,5 @@
+{4dbe26da-7307-4c39-9825-5a57682bb915} event:/lollyde-triple-boost-flower/boost_1
+{e322402e-7ae7-4d68-9590-98b4a5d7f343} event:/lollyde-triple-boost-flower/boost_2
+{7b8430e6-3be7-4762-ac11-fff86fdc46a5} event:/lollyde-triple-boost-flower/boost_3
+{01ca2611-f273-4432-8aae-e27559e2f153} event:/lollyde-triple-boost-flower/glider_movement
+{4f6c66f0-c563-4c43-9891-6878ccc8df8d} bank:/Lollyde-TripleBoostFlower

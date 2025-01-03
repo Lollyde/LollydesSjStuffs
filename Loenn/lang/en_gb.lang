@@ -1,0 +1,16 @@
+entities.lollyde_sj/SineDustie.placements.name.lollyde_sj_sinedustie=Sine Dustie
+entities.lollyde_sj/SineDustie.placements.description.lollyde_sj_sinedustie=Fully customizable dusties following a sine wave pattern on the x and or y axis.
+entities.lollyde_sj/SineDustie.attributes.description.xLinear=Move the X axis in a line rather than a sine pattern.
+entities.lollyde_sj/SineDustie.attributes.description.yLinear=Move the Y axis in a line rather than a sine pattern.
+
+entities.lollyde_sj/BoostRose.placements.name.lollyde_sj_boostrose=Boost Rose
+
+entities.lollyde_sj/MaskedOutline.placements.name.lollyde_sj_maskedoutline=Masked Outline
+entities.lollyde_sj/MaskedOutline.placements.description.lollyde_sj_maskedoutline=Place one per room. Only guaranteed to work on vanilla boosters and refills.\nDoesnt follow reskinned shapes.
+
+
+triggers.lollyde_sj/PocketUmbrellaTrigger.placements.name.lollyde_sj_PocketUmbrellaTrigger=Pocket Umbrella Trigger
+triggers.lollyde_sj/PocketUmbrellaTrigger.placements.description.lollyde_sj_PocketUmbrellaTrigger=Make sure every respawn point is covered (unless you know what youre doing).\nNot strictly required in every room, but i take no responsibility for weird behaviour.
+triggers.lollyde_sj/PocketUmbrellaTrigger.attributes.description.enabled=Enable or disable the pocket umbrella.
+triggers.lollyde_sj/PocketUmbrellaTrigger.attributes.description.revertOnLeave=Whether to revert to the previous setting when leaving the trigger or not.
+triggers.lollyde_sj/PocketUmbrellaTrigger.attributes.description.musicParam=The music layer that should fade in when the umbrella is deployed *and* the player is off the ground.\nLeave as "none" to disable.

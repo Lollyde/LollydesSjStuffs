@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Sprites>
+    <!--Sky Lantern-->
+    <!--<skyLantern path="objects/lollyde_sj/skyLantern/" start="idle">
+        <Justify x="0.5" y="0.9"/>
+        <Anim id="idle" path="idle" delay="0.1"/>
+        <Anim id="held" path="held" delay="0.1"/>
+        <Anim id="fall" path="fall" delay="0.06" goto="fallLoop"/>
+        <Loop id="fallLoop" path="fallLoop" delay="0.06"/>
+        <Anim id="death" path="death" delay="0.06"/>
+    </skyLantern>-->
+
+    <!--Rose Glider-->
+    <roseGlider path="objects/lollyde_sj/roseGlider/" start="idle_3">
+        <Anim id="idle_3" path="3charge/fly" delay="0.1" frames="3-7,6-4" goto="idle_3:9,idle_gust_3:1"/>
+        <Anim id="idle_gust_3" path="3charge/fly" delay="0.1" frames="3-0,1,2" goto="idle_3:9,idle_gust_3:1"/>
+        <Anim id="boost_3" path="3charge/boost" delay="0.1" frames="0-5" goto="idle_2:9,idle_gust_2:1"/>
+        <Anim id="idle_2" path="2charge/fly" delay="0.1" frames="3-7,6-4" goto="idle_2:9,idle_gust_2:1"/>
+        <Anim id="idle_gust_2" path="2charge/fly" delay="0.1" frames="3-0,1,2" goto="idle_2:9,idle_gust_2:1"/>
+        <Anim id="boost_2" path="2charge/boost" delay="0.1" frames="0-5" goto="idle_1:9,idle_gust_1:1"/>
+        <Anim id="idle_1" path="1charge/fly" delay="0.1" frames="3-7,6-4" goto="idle_1:9,idle_gust_1:1"/>
+        <Anim id="idle_gust_1" path="1charge/fly" delay="0.1" frames="3-0,1,2" goto="idle_1:9,idle_gust_1:1"/>
+        <Anim id="boost_1" path="1charge/boost" delay="0.1" frames="0-7"/>
+    </roseGlider>
+
+    <!--Pocket Umbrella-->
+    <pocketUmbrella path="objects/lollyde_sj/pocketUmbrella/" start="held">
+        <Justify x="0.5" y="0.58"/>
+        <Anim id="spawn" path="spawn" delay="0.06" goto="held"/>
+        <Loop id="held" path="held" delay="0.1"/>
+        <Anim id="fall" path="fall" delay="0.06" goto="fallLoop"/>
+        <Loop id="fallLoop" path="fallLoop" delay="0.06"/>
+        <Anim id="death" path="spawn" delay="0.06" frames="3-0"/>
+    </pocketUmbrella>
+
+    <!--Pocket Umbrella Sweat-->
+    <pocketUmbrellaSweat path="objects/lollyde_sj/pocketUmbrella/" start="sweat">
+        <Loop id="sweat" path="umbrella_sweat" delay="0.06"/>
+    </pocketUmbrellaSweat>
+</Sprites>
